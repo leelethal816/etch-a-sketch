@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    font-family: 'Roboto', Courier, monospace;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid rgb(31, 190, 214);
+    background-color: rgb(31, 190, 214);
+    border-radius: 10px;
+}
+
+button:hover {
+    color: rgb(31, 190, 214);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid rgb(31, 190, 214);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 740px;
+    height: 740px;
+}
+
+.grid-item {
+    border: solid 1px black;
+    box-sizing: border-box;
+}
